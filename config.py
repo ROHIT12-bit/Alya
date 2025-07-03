@@ -2,10 +2,10 @@ from os import getenv
 from dotenv import load_dotenv
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "20366634"))
+API_HASH = getenv("API_HASH", "72095ec36984aa9ceb0dbaa9cec31559")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7781735913:AAFa3jydrpzBCyULjVZ6hoYdsdkwDOthd_o")
 LOG_ID = int(getenv("LOG_ID", "-1002640844591"))
 
 MONGO_DB_URI = getenv("MONGO_DB_URI")
