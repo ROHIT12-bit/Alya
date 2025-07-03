@@ -24,7 +24,7 @@ cleanmode = {}
 SUDOERS = config.SUDO_USER
 
 app = Client(
-    ":AfkRobotAFKBot:",
+    "AfkBotV2",  # new name = new session
     config.API_ID,
     config.API_HASH,
     bot_token=config.BOT_TOKEN,
