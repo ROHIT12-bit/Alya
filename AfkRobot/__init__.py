@@ -1,10 +1,8 @@
-
-
 import asyncio
 import time
 
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
-from pyrogram import Client
+from pyrogram import Client, idle
 
 import config
 
@@ -17,19 +15,16 @@ db = mongo.AFK
 botid = 0
 botname = ""
 botusername = ""
-
 cleanmode = {}
-
 
 SUDOERS = config.SUDO_USER
 
 app = Client(
-    "FreshBotSession",  # <== new session name
+    "FreshBotSession",
     config.API_ID,
     config.API_HASH,
     bot_token=config.BOT_TOKEN,
 )
-
 
 async def initiate_bot():
     global botid, botname, botusername
@@ -37,10 +32,12 @@ async def initiate_bot():
     getme = await app.get_me()
     botid = getme.id
     botusername = (getme.username).lower()
-    if getme.last_name:
-        botname = getme.first_name + " " + getme.last_name
-    else:
-        botname = getme.first_name
+    botname = f"{getme.first_name} {getme.last_name or ''}".strip()
+    
+    print(f"✅ Bot Started as @{botusername} (ID: {botid})")
+    await idle()  # <- Keep the bot running!
+    await app.stop()
+    print("❌ Bot Stopped")
 
-
-loop.run_until_complete(initiate_bot())
+if __name__ == "__main__":
+    loop.run_until_complete(initiate_bot())
