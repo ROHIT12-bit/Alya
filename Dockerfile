@@ -18,8 +18,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy your bot source code
 COPY . .
 
-# Set environment variables (optional)
-ENV PYTHONUNBUFFERED=1
 
 # Start the bot
 CMD ["python3", "-m", "AfkRobot"]
