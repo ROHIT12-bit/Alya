@@ -66,22 +66,22 @@ asyncio.create_task(auto_clean())
 
 
 RANDOM = [
-    "https://telegra.ph/file/52e152c4f036384c84ae1.jpg",
-    "https://telegra.ph/file/eb497a972df5836c1ebb9.jpg",
-    "https://telegra.ph/file/3bf367b3ca7ccaadf339e.jpg",
-    "https://telegra.ph/file/2b372cacca849f487039b.jpg",
-    "https://telegra.ph/file/34d55f43d38e55ae001e9.jpg",
-    "https://telegra.ph/file/8ff6b3dfbb3abb476c6d4.jpg",
-    "https://telegra.ph/file/ec190771212ca366f2cbd.jpg",
-    "https://telegra.ph/file/12549f809c7533e6c4197.jpg",
-    "https://telegra.ph/file/a8cf5423ea950d28998c0.jpg",
-    "https://telegra.ph/file/144551776656b05682d42.jpg",
-    "https://telegra.ph/file/a2ea5c6d1099be896d79f.jpg", 
-    "https://telegra.ph/file/661626d941bc44a97edf4.jpg"
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG",
+    "https://ibb.co/Jwct58pG", 
+    "https://ibb.co/Jwct58pG"
 ]
 
 
-HELP_TEXT = f"""ㅤ[ㅤㅤㅤㅤㅤ ](https://telegra.ph/file/661626d941bc44a97edf4.jpg)ㅤㅤ
+HELP_TEXT = f"""ㅤ[ㅤㅤㅤㅤㅤ ](https://ibb.co/Jwct58pG)ㅤㅤ
 ■ Hᴇʏ Gᴜʏs, 
 
 ※ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ᴏғ ᴀғᴋ ʙᴏᴛ
@@ -110,7 +110,7 @@ HELP_TEXT = f"""ㅤ[ㅤㅤㅤㅤㅤ ](https://telegra.ph/file/661626d941bc44a97e
 
 /settings - [ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀɴɢɪɴɢ sᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ᴏғ Aғᴋ Bᴏᴛ ( Oɴʟʏ Usᴇ Iɴ Gʀᴏᴜᴘs) ]
 
-🖇★ Rᴇɢᴀʀᴅs ~ [TʜᴇAFKʀᴏʙᴏᴛ](https://t.me/TheAfkRobot) 🔥. 
+🖇★ Rᴇɢᴀʀᴅs ~ [ANIELITE](https://t.me/ANIELITETELUGU) 🔥. 
 ㅤ
 """
             
