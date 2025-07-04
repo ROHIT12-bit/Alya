@@ -2,7 +2,7 @@ import asyncio
 import time
 
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
-from pyrogram import Client, idle
+from pyrogram import Client
 
 import config
 
@@ -32,12 +32,23 @@ async def initiate_bot():
     getme = await app.get_me()
     botid = getme.id
     botusername = (getme.username).lower()
-    botname = f"{getme.first_name} {getme.last_name or ''}".strip()
-    
-    print(f"✅ Bot Started as @{botusername} (ID: {botid})")
-    await idle()  # <- Keep the bot running!
-    await app.stop()
-    print("❌ Bot Stopped")
+    if getme.last_name:
 
-if __name__ == "__main__":
-    loop.run_until_complete(initiate_bot())
+
+
+        botname = getme.first_name + " " + getme.last_name
+
+
+    else:
+
+
+        botname = getme.first_name
+
+
+
+
+
+
+
+
+loop.run_until_complete(initiate_bot())
